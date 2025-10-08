@@ -1,11 +1,11 @@
 package test
 
 import (
+	"github.com/Foad-KhAb/BeatStream/internal/config"
+	"github.com/Foad-KhAb/BeatStream/pkg/dbcontext"
+	"github.com/Foad-KhAb/BeatStream/pkg/log"
 	dbx "github.com/go-ozzo/ozzo-dbx"
 	_ "github.com/lib/pq" // initialize posgresql for test
-	"github.com/qiangxue/go-rest-api/internal/config"
-	"github.com/qiangxue/go-rest-api/pkg/dbcontext"
-	"github.com/qiangxue/go-rest-api/pkg/log"
 	"path"
 	"runtime"
 	"testing"

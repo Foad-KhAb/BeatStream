@@ -1,10 +1,10 @@
 package album
 
 import (
-	"github.com/qiangxue/go-rest-api/internal/auth"
-	"github.com/qiangxue/go-rest-api/internal/entity"
-	"github.com/qiangxue/go-rest-api/internal/test"
-	"github.com/qiangxue/go-rest-api/pkg/log"
+	"github.com/Foad-KhAb/BeatStream/internal/auth"
+	"github.com/Foad-KhAb/BeatStream/internal/entity"
+	"github.com/Foad-KhAb/BeatStream/internal/test"
+	"github.com/Foad-KhAb/BeatStream/pkg/log"
 	"net/http"
 	"testing"
 	"time"

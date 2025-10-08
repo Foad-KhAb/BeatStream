@@ -2,11 +2,11 @@ package auth
 
 import (
 	"context"
-	"github.com/dgrijalva/jwt-go"
+	"github.com/Foad-KhAb/BeatStream/internal/entity"
+	"github.com/Foad-KhAb/BeatStream/internal/errors"
 	routing "github.com/go-ozzo/ozzo-routing/v2"
 	"github.com/go-ozzo/ozzo-routing/v2/auth"
-	"github.com/qiangxue/go-rest-api/internal/entity"
-	"github.com/qiangxue/go-rest-api/internal/errors"
+	"github.com/golang-jwt/jwt/v4"
 	"net/http"
 )
 

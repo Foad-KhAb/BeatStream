@@ -2,9 +2,9 @@ package album
 
 import (
 	"context"
+	"github.com/Foad-KhAb/BeatStream/internal/entity"
+	"github.com/Foad-KhAb/BeatStream/pkg/log"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/qiangxue/go-rest-api/internal/entity"
-	"github.com/qiangxue/go-rest-api/pkg/log"
 	"time"
 )
 

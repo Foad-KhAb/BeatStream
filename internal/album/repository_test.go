@@ -3,9 +3,9 @@ package album
 import (
 	"context"
 	"database/sql"
-	"github.com/qiangxue/go-rest-api/internal/entity"
-	"github.com/qiangxue/go-rest-api/internal/test"
-	"github.com/qiangxue/go-rest-api/pkg/log"
+	"github.com/Foad-KhAb/BeatStream/internal/entity"
+	"github.com/Foad-KhAb/BeatStream/internal/test"
+	"github.com/Foad-KhAb/BeatStream/pkg/log"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"

@@ -1,11 +1,12 @@
 package album
 
 import (
-	"github.com/go-ozzo/ozzo-routing/v2"
-	"github.com/qiangxue/go-rest-api/internal/errors"
-	"github.com/qiangxue/go-rest-api/pkg/log"
-	"github.com/qiangxue/go-rest-api/pkg/pagination"
 	"net/http"
+
+	"github.com/Foad-KhAb/BeatStream/internal/errors"
+	"github.com/Foad-KhAb/BeatStream/pkg/log"
+	"github.com/Foad-KhAb/BeatStream/pkg/pagination"
+	"github.com/go-ozzo/ozzo-routing/v2"
 )
 
 // RegisterHandlers sets up the routing of the HTTP handlers.
@@ -48,6 +49,7 @@ func (r resource) query(c *routing.Context) error {
 	if err != nil {
 		return err
 	}
+
 	pages.Items = albums
 	return c.Write(pages)
 }
